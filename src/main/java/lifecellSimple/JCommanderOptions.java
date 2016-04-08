@@ -21,7 +21,7 @@ public class JCommanderOptions {
      * аргумент запуска программмы, путь к файлу db.properties
      */
     @Parameter(names = "-DBproperties", description = "BD properties address")
-    public String properties = "lifecellSimple/db.properties"; // default value db.properties
+    public String properties = "db.properties"; // default value db.properties
 
     /**
      * аргумент запуска программы, путь к файлу с результатами result.html
